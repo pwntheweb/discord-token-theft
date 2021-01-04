@@ -1,0 +1,5 @@
+Discord Token Theft
+
+Type: File crawling
+
+Description: This script searches files for mentions of the user's token.
