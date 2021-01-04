@@ -1,0 +1,5 @@
+Discord Token Theft
+
+Type: Discord infection
+
+Description: This script attaches itself to the Discord application.
